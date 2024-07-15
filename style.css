@@ -1,13 +1,40 @@
 body {
   background-color: #edf2f4;
   margin: 0;
+  font-family: "Inter", sans-serif;
 }
 .container {
-  background-color: #84a59d;
+  background-color: white;
   border: none;
   border-radius: 20px;
-  padding: 8px;
-  max-width: 500px;
+  padding: 15px;
+  max-width: 600px;
   margin: 0 auto;
-  margin-top: 40px;
+  margin-top: 20px;
+}
+h1 {
+  margin: 0;
+  color: #344e41;
+  text-align: center;
+}
+i {
+  font-size: 25px;
+}
+h3 {
+  margin: 0;
+  font-size: 1.4em;
+}
+.one {
+  background-color: #3a5a40;
+  padding: 10px;
+  border-radius: 15px;
+  margin-bottom: 8px;
+  margin-top: 10px;
+  color: whitesmoke;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
 }
