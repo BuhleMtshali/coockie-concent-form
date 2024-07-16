@@ -50,49 +50,55 @@
             Be a Node js dev by Lunchtime
           </h3>
         </div>
-        <img src="img/pexels-lee-campbell-18167-89724.jpg" alt="coding image" />
+        <img
+          src="img/pexels-lee-campbell-18167-89724.jpg"
+          alt="coding image"
+          class="img"
+        />
       </div>
-
-      <div class="modal-container" id="modal-container">
+      <div class="outer-modal" id="outer-modal">
         <div class="close-btn-container">
           <button id="close-btn" disabled>X</button>
         </div>
-        <h2>
-          We
-          <i
-            class="fa-solid fa-heart fa-beat larger"
-            style="color: #f43210"
-          ></i>
-          Your Data!
-        </h2>
-
-        <p id="text-container">
-          We have a strict policy on tracking <br />
-          and spamming: we'll definetly track<br />you and we'll definitely spam
-          you.<br />To use this site, enter your name<br />and email address and
-          accept our<br />ridiculous terms and conditions.
-        </p>
-
-        <form id="form">
-          <input
-            type="text"
-            name="fullName"
-            for="fullName"
-            placeholder="Enter your full name"
-            required
-          />
-          <input
-            type="email"
-            name="email"
-            for="fullName"
-            placeholder="Enter your email"
-            required
-          />
-          <div class="button-container" id="button-container">
-            <button id="submit">Accept</button>
-            <button id="decline">Decline</button>
+        <div class="modal-container" id="modal-container">
+          <h2>
+            We
+            <i
+              class="fa-solid fa-heart fa-beat larger"
+              style="color: #f43210"
+            ></i>
+            Your Data!
+          </h2>
+          <div id="text-container">
+            <p>
+              We have a strict policy on tracking <br />
+              and spamming: we'll definetly track<br />you and we'll definitely
+              spam you.<br />To use this site, enter your name<br />and email
+              address and accept our<br />ridiculous terms and conditions.
+            </p>
           </div>
-        </form>
+          <form id="form">
+            <input
+              type="text"
+              name="fullName"
+              for="fullName"
+              placeholder="Enter your full name"
+              required
+              id="full-name"
+            />
+            <input
+              type="email"
+              name="email"
+              for="fullName"
+              placeholder="Enter your email"
+              required
+            />
+            <div class="button-container" id="button-container">
+              <button id="submit">Accept</button>
+              <button id="decline">Decline</button>
+            </div>
+          </form>
+        </div>
       </div>
     </div>
 
