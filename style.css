@@ -60,6 +60,7 @@ img {
   color: white;
   text-align: center;
   display: none;
+  border-radius: 18px;
 }
 .close-btn-container {
   display: flex;
@@ -77,11 +78,20 @@ img {
   color: #d90429;
 }
 h2 {
-  font-size: 2.5em;
+  font-size: 2em;
+  margin-bottom: 5px;
+  margin-top: 10px;
 }
 p {
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 600;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+.reverse {
+  flex-direction: row-reverse;
 }
 input {
   width: 60%;
@@ -102,7 +112,7 @@ input {
   padding: 6px 16px;
   font-size: 16px;
   font-weight: 500;
-  margin: 0;
+  margin: 2px;
   cursor: grabbing;
 }
 .loading {

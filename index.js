@@ -2,6 +2,8 @@ const modalElement = document.getElementById("modal-container");
 const removeBtn = document.getElementById("close-btn");
 const formElement = document.getElementById("form");
 const textContainer = document.getElementById("text-container");
+const declineButton = document.getElementById("decline");
+const buttonContainer = document.getElementById("button-container");
 
 //settimeout function for the modal to be displayed
 
@@ -34,6 +36,9 @@ function formSubmitted(e) {
 
   setTimeout(function () {
     modalElement.innerHTML = `
+    <div class="close-btn-container">
+          <button id="close-btn">X</button>
+        </div>
     <h2>Thanks you sucker!</h2>
     <img src="img/evil-laugh.jpg" class="meme"/>
     <p id="uploadText">
@@ -44,3 +49,9 @@ function formSubmitted(e) {
 }
 
 formElement.addEventListener("submit", formSubmitted);
+
+//function for reverse flex
+function changeButtons() {
+  buttonContainer.classList.toggle("reverse");
+}
+declineButton.addEventListener("mouseenter", changeButtons);
