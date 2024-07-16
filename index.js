@@ -52,6 +52,7 @@ function formSubmitted(event) {
     `;
     document.querySelector(".modal-container").innerHTML = newContent;
     removeBtn.disabled = false;
+    removeBtn.style.cursor = "pointer";
   }, 8000);
 }
 
