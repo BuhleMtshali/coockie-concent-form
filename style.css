@@ -46,7 +46,7 @@ img {
 .larger {
   font-size: 35px;
 }
-.modal-container {
+#modal-container {
   background-color: #84a59d;
   width: 450px;
   height: 450px;
@@ -106,5 +106,11 @@ input {
   cursor: grabbing;
 }
 .loading {
-  font-size: 8px;
+  font-size: 60px;
+}
+.meme {
+  width: 200px;
+  height: 290px;
+  object-fit: cover;
+  object-position: center;
 }

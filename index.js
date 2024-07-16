@@ -21,11 +21,26 @@ function formSubmitted(e) {
   e.preventDefault();
   textContainer.innerHTML = `
   <div class="modal-inner-loading">
-        <img src="img/loading.svg" class="loading"/>
+        <i class="fa-solid fa-spinner fa-spin loading" style="color: #f10427;"></i>
         <p id="uploadText">
         Uploading your data to the dark web...
         </p>
   </div>`;
+
+  setTimeout(function () {
+    document.getElementById("uploadText").innerText = `
+    Making the sale...`;
+  }, 6000);
+
+  setTimeout(function () {
+    modalElement.innerHTML = `
+    <h2>Thanks you sucker!</h2>
+    <img src="img/evil-laugh.jpg" class="meme"/>
+    <p id="uploadText">
+        We just sold the right to your eternal soul.
+        </p>
+    `;
+  }, 9000);
 }
 
 formElement.addEventListener("submit", formSubmitted);
