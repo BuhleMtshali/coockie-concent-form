@@ -56,6 +56,7 @@ img {
   margin: auto;
   color: white;
   text-align: center;
+  display: none;
 }
 .close-btn-container {
   display: flex;
