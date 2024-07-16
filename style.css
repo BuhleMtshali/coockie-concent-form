@@ -40,8 +40,11 @@ h3 {
 
 img {
   width: 100%;
-  height: auto;
+  height: 500px;
   border-radius: 15px;
+}
+.larger {
+  font-size: 35px;
 }
 .modal-container {
   background-color: #84a59d;
@@ -67,8 +70,11 @@ img {
   background-color: #84a59d;
   color: whitesmoke;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 22px;
   cursor: pointer;
+}
+#close-btn:hover {
+  color: #d90429;
 }
 h2 {
   font-size: 2.5em;
@@ -97,4 +103,5 @@ input {
   font-size: 16px;
   font-weight: 500;
   margin: 0;
+  cursor: grabbing;
 }
