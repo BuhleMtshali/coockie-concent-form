@@ -1,13 +1,13 @@
 body {
-  background-color: #edf2f4;
+  background-color: #003049;
   margin: 0;
   font-family: "Inter", sans-serif;
 }
 .container {
-  background-color: white;
+  background-color: #f7ede2;
   border: none;
   border-radius: 20px;
-  padding: 15px;
+  padding: 25px;
   max-width: 600px;
   margin: auto;
   height: 600px;
@@ -19,8 +19,9 @@ body {
 }
 h1 {
   margin: 0;
-  color: #d90429;
+  color: #84a59d;
   text-align: center;
+  font-weight: bold;
 }
 i {
   font-size: 25px;
@@ -30,8 +31,8 @@ h3 {
   font-size: 1.4em;
 }
 .one {
-  background-color: #8e9aaf;
-  padding: 10px;
+  background-color: #f28482;
+  padding: 15px;
   border-radius: 15px;
   margin-bottom: 8px;
   margin-top: 10px;
@@ -52,6 +53,11 @@ h3 {
 .larger {
   font-size: 35px;
 }
+
+.red-name {
+  color: #d90429;
+}
+
 #outer-modal {
   background-color: #84a59d;
   width: 450px;
@@ -122,7 +128,9 @@ input {
   cursor: grabbing;
 }
 .loading {
-  font-size: 60px;
+  margin-top: 5px;
+  font-size: 65px;
+  font-weight: bold;
 }
 .meme {
   width: 200px;

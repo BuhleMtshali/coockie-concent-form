@@ -44,7 +44,7 @@ function formSubmitted(event) {
   setTimeout(function () {
     const newContent = `
         
-    <h2>Thanks ${fullName} you sucker!</h2>
+    <h2>Thanks <span class="red-name"> ${fullName}</span> you sucker!</h2>
     <img src="img/evil-laugh.jpg" class="meme"/>
     <p id="uploadText">
         We just sold the right to your eternal soul.
